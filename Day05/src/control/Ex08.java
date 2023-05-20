@@ -16,7 +16,7 @@ public class Ex08 {
 		else if(select == 3) 	System.out.println("Three");
 		else				 	System.out.println("Others");
 		
-		switch(select) {		//switch 조건에 실수는 쓸 수 없다(double,float는 사용x)
+		switch(select) {		//switch 조건에 실수는 쓸 수 없다(double,float는 사용x) -> switch문은 정확한 값을 필요로 하기 때문에
 			case 1: 		System.out.println("하나");	break;
 			case 2: 		System.out.println("둘");	break;
 			case 3: 		System.out.println("셋");	break;
